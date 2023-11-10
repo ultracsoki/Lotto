@@ -1,0 +1,19 @@
+﻿<Window x:Class="Lotto.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lotto"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="buttonSorsol" Content="Sorsol" HorizontalAlignment="Left" Margin="175,91,0,0" VerticalAlignment="Top" Click="buttonSorsol_Click"/>
+        <Label x:Name="labelFelirat" Content="Nagy felirat" HorizontalAlignment="Left" Margin="329,91,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelElso" Content="Label" HorizontalAlignment="Left" Margin="174,217,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelMasodik" Content="Label" HorizontalAlignment="Left" Margin="236,217,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelHarmadik" Content="Label" HorizontalAlignment="Left" Margin="295,217,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelNegyedik" Content="Label" HorizontalAlignment="Left" Margin="362,217,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelOtodik" Content="Label" HorizontalAlignment="Left" Margin="421,217,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
